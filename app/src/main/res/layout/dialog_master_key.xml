@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2018 Advanced Card Systems Ltd. All rights reserved.
+
+    This software is the confidential and proprietary information of Advanced
+    Card Systems Ltd. ("Confidential Information").  You shall not disclose such
+    Confidential Information and shall use it only in accordance with the terms
+    of the license agreement you entered into with ACS.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Terminal name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/terminal"
+                android:textSize="18sp" />
+
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/dialog_master_key_text_view_terminal_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <!-- Use default key -->
+        <CheckBox
+            android:id="@+id/dialog_master_key_check_box_use_default_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/use_default_key" />
+
+        <!-- New key -->
+        <EditText
+            android:id="@+id/dialog_master_key_edit_text_new_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/hint_new_key"
+            android:inputType="textCapCharacters" />
+
+    </LinearLayout>
+
+</ScrollView>

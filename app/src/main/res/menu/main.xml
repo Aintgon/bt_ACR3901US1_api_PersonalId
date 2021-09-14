@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_set_master_key"
+        android:title="@string/set_master_key" />
+    <item
+        android:id="@+id/menu_set_terminal_timeouts"
+        android:title="@string/set_terminal_timeouts" />
+    <item
+        android:id="@+id/menu_get_battery_status"
+        android:title="@string/get_battery_status" />
+    <item
+        android:id="@+id/menu_get_battery_level"
+        android:title="@string/get_battery_level" />
+    <item
+        android:id="@+id/menu_get_device_info"
+        android:title="@string/get_device_info" />
+    <item
+        android:id="@+id/menu_show_card_state"
+        android:title="@string/show_card_state" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/title_settings" />
+</menu>

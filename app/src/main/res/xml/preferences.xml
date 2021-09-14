@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_title_transmit_options">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_t0_get_response"
+            android:summary="@string/pref_summary_get_response"
+            android:title="@string/pref_title_t0_get_response" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_t1_get_response"
+            android:summary="@string/pref_summary_get_response"
+            android:title="@string/pref_title_t1_get_response" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_t1_strip_le"
+            android:summary="@string/pref_summary_strip_le"
+            android:title="@string/pref_title_t1_strip_le" />
+    </PreferenceCategory>
+</PreferenceScreen>

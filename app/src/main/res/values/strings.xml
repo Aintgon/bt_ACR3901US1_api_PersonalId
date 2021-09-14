@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">BLE Test</string>
+    <string name="error_bluetooth_le_not_supported">Bluetooth LE not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="error_bluetooth_provider_not_found">Bluetooth provider not found</string>
+    <string name="error_external_storage_not_available">External storage not available for read and write</string>
+    <string name="terminal">Terminal:</string>
+    <string name="scan">Scan</string>
+    <string name="list">List</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="protocol">Protocol:</string>
+    <string name="t0">T=0</string>
+    <string name="t1">T=1</string>
+    <string name="control_code">Control Code:</string>
+    <string name="script">Script:</string>
+    <string name="select_file">Select File</string>
+    <string name="transmit">Transmit</string>
+    <string name="control">Control</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="pref_title_transmit_options">Transmit Options</string>
+    <string name="pref_title_t0_get_response">GET RESPONSE for T=0</string>
+    <string name="pref_title_t1_get_response">GET RESPONSE for T=1</string>
+    <string name="pref_title_t1_strip_le">Strip Le for T=1</string>
+    <string name="pref_summary_get_response">
+        Issue a GET RESPONSE command using SW2 as the Le field if 61 XX is received and reissue the
+        command using SW2 as the Le field if 6C XX is received.
+    </string>
+    <string name="pref_summary_strip_le">Strip Le field from command APDU.</string>
+
+    <!-- Terminal types -->
+    <string name="select_terminal_type">Select a terminal type</string>
+    <string-array name="terminal_types_array">
+        <item>ACR3901U-S1/ACR3901T-W1</item>
+        <item>ACR1255U-J1</item>
+        <item>AMR220-C</item>
+        <item>ACR1255U-J1 V2</item>
+    </string-array>
+
+    <!-- Master key -->
+    <string name="set_master_key">Set Master Key</string>
+    <string name="use_default_key">Use Default Key</string>
+    <string name="hint_new_key">Enter new key in HEX characters</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Terminal timeouts -->
+    <string name="set_terminal_timeouts">Set Terminal Timeouts</string>
+    <string name="use_default_timeout">Use Default Timeout</string>
+    <string name="timeouts">Timeouts (ms):</string>
+    <string name="connection_timeout">Connection Timeout:</string>
+    <string name="power_timeout">Power Timeout:</string>
+    <string name="protocol_timeout">Protocol Timeout:</string>
+    <string name="apdu_timeout">APDU Timeout:</string>
+    <string name="control_timeout">Control Timeout:</string>
+
+    <!-- Battery status -->
+    <string name="get_battery_status">Get Battery Status</string>
+
+    <!-- Battery level -->
+    <string name="get_battery_level">Get Battery Level</string>
+
+    <!-- Device information -->
+    <string name="get_device_info">Get Device Information</string>
+
+    <!-- Card state -->
+    <string name="show_card_state">Show Card State</string>
+    <string name="hide_card_state">Hide Card State</string>
+</resources>
